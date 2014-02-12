@@ -1,0 +1,28 @@
+### Snake Game
+
+### Setting up
+
+We're using a library called Slick.  To setup you need to
+follow these instructions if you're using Eclipse:
+
+1. First download this source code and create a new project in
+Eclipse.  You can either point it directly to the source code files
+or use the Eclipse setup process and then copy the src/ and img/
+folders into the location where Eclipse makes the project.
+
+2. Download the libraries here:
+- LWJGL: http://www.lwjgl.org/download.php
+- Slick download link at the top of this page http://slick.ninjacave.com/wiki/index.php?title=Setting_up_Slick2D_with_NetBeansIDE
+
+3. You then need to follow these instructions to get the libraries
+into the project environment:
+http://lwjgl.org/wiki/index.php?title=Setting_Up_LWJGL_with_Eclipse
+
+Make sure you link to lwlgl.jar, slick.jar and jinput.jar, and
+follow the instructions for pointing to the native lwlgl code.
+
+4. Open SnakeMain.java in Eclipse and run it.
+
+Some more help on this blog page if you want to also link to
+the javadoc so that Eclipse gives you nice code hints for the
+slick library: http://baksteenbrick.wordpress.com/2011/02/07/writing-java-games-with-slick-part-one-setting-up-an-eclipse-project/
