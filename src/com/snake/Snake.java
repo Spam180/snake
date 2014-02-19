@@ -66,6 +66,19 @@ public class Snake {
 	}
 	
 	public void setDirection(SnakeDirection dir) {
-		this.direction = dir;
+		switch (this.direction) {
+		case RIGHT:
+			if (dir == SnakeDirection.LEFT) break;
+			else this.direction = dir;
+		case LEFT:
+			if (dir == SnakeDirection.RIGHT) break;
+			else this.direction = dir;
+		case DOWN: 
+			if (dir == SnakeDirection.UP) break;
+			else this.direction = dir;
+		case UP:
+			if (dir == SnakeDirection.DOWN) break;
+			else this.direction = dir;
+		}
 	}
 }
